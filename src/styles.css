@@ -47,19 +47,19 @@ input:focus { border-color: #ea8fbb; box-shadow: 0 0 0 4px #f3a8ca24; background
 .status { display: inline-block; padding: 6px 10px; border-radius: 99px; font-size: 10px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
 .success, .strong { color: #a64477; background: #ffe1ef; }
 .danger, .weak { color: #bd5269; background: #ffe6eb; }
-.medium { color: #a96f24; background: #fff0d4; }
+.medium { color: #b0698a; background: #fdeadd; }
 .score-ring { width: 110px; height: 110px; margin: 14px; border-radius: 50%; display: grid; place-items: center; color: #ce5f9a; background: white; border: 9px solid #f8cfe3; font-size: 31px; font-weight: 800; box-shadow: 0 8px 28px #d66e9d20; }
-.score-ring small { display: block; font-size: 10px; margin-top: -34px; color: #9299ad; }
-.hint { margin: -7px 0 0; color: #8b92a6; font-size: 11px; }
+.score-ring small { display: block; font-size: 10px; margin-top: -34px; color: #b489a4; }
+.hint { margin: -7px 0 0; color: #ad84a0; font-size: 11px; }
 .strength-meter { width: 100%; height: 8px; background: #f1dfe8; border-radius: 8px; overflow: hidden; margin: 20px 0 10px; }
 .strength-meter i { display: block; height: 100%; border-radius: 8px; }
-.strength-meter i.weak { width: 30%; background: #ed7790; }.strength-meter i.medium { width: 65%; background: #f0ae62; }.strength-meter i.strong { width: 100%; background: #e875ae; }
-.detail-row, .total-row { width: 100%; display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #e5e8f0; font-size: 13px; }
-.detail-row span, .total-row span { color: #7c8499; }
+.strength-meter i.weak { width: 30%; background: #ec8fa3; }.strength-meter i.medium { width: 65%; background: #eba0a8; }.strength-meter i.strong { width: 100%; background: #e875ae; }
+.detail-row, .total-row { width: 100%; display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #f1dde8; font-size: 13px; }
+.detail-row span, .total-row span { color: #9c7e93; }
 .total-row { margin-top: 10px; border: 0; align-items: center; }
 .total-row strong { color: #d45995; font-size: 24px; }
 .time-display { margin: 16px 0 6px; color: #c75d9a; font-size: 32px; font-weight: 800; }
-.time-display small { display: block; color: #8a91a5; font-size: 11px; margin-top: 5px; }
+.time-display small { display: block; color: #a6849b; font-size: 11px; margin-top: 5px; }
 .success-panel { text-align: center; padding: 30px; }
 .success-icon { width: 68px; height: 68px; margin: 0 auto 14px; border-radius: 50% 50% 45% 55%; display: grid; place-items: center; color: white; background: linear-gradient(135deg,#f293bd,#c892e8); font-size: 30px; box-shadow: 0 12px 30px #dc7baa38; }
 .home-page { display: grid; grid-template-columns: .95fr 1.05fr; align-items: center; gap: 58px; min-height: 560px; }
